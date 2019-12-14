@@ -3,4 +3,4 @@ input = 5
 
 import intcode
 intcode = intcode.IntCodeRunner(memory)
-print(intcode.run(input))
+print(intcode.run(input)[-1])
